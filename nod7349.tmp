@@ -1,0 +1,298 @@
+[gd_scene load_steps=53 format=4 uid="uid://b6p80wi8fan5a"]
+
+[ext_resource type="Texture2D" uid="uid://bsifqkhvj85ad" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/idle/idle_1.png" id="1_0wl7j"]
+[ext_resource type="Script" path="res://character_body_2d.gd" id="1_indds"]
+[ext_resource type="Texture2D" uid="uid://b4eqqyqmeh065" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/idle/idle_2.png" id="2_pn50w"]
+[ext_resource type="Texture2D" uid="uid://brjtcwrnln5jp" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/idle/idle_3.png" id="3_op02l"]
+[ext_resource type="Texture2D" uid="uid://bpyhdljff0cqj" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/idle/idle_4.png" id="4_wcx4s"]
+[ext_resource type="Texture2D" uid="uid://cwmxovyjhhqrw" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/idle/idle_5.png" id="5_dffo7"]
+[ext_resource type="Texture2D" uid="uid://bx1qhgmuee18o" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/idle/idle_6.png" id="6_2rsai"]
+[ext_resource type="Texture2D" uid="uid://cb0f7ey71k3pw" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/run/run_1.png" id="8_788ur"]
+[ext_resource type="Texture2D" uid="uid://bu5w65epl24jo" path="res://Personagens/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png" id="8_tq1kg"]
+[ext_resource type="Texture2D" uid="uid://bhck40ljwbyi7" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/run/run_2.png" id="9_mp5x7"]
+[ext_resource type="Texture2D" uid="uid://cqvodhxgitqi8" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/run/run_3.png" id="10_dmw2r"]
+[ext_resource type="Texture2D" uid="uid://dk7qqvt4lgggr" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_1.png" id="10_xl6pf"]
+[ext_resource type="Texture2D" uid="uid://bmr1rb1m4wsxb" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_2.png" id="11_imfgs"]
+[ext_resource type="Texture2D" uid="uid://bdctiuqdpx0ve" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/run/run_4.png" id="11_wgd0o"]
+[ext_resource type="Texture2D" uid="uid://b36w2x32rl5r2" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/run/run_5.png" id="12_fttwg"]
+[ext_resource type="Texture2D" uid="uid://b7h6evmyy8pxm" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_3.png" id="12_s01k6"]
+[ext_resource type="Texture2D" uid="uid://bl6ablaeny5ly" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_4.png" id="13_jutqi"]
+[ext_resource type="Texture2D" uid="uid://bjvj3f4qkvbgf" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/run/run_6.png" id="13_ymj1i"]
+[ext_resource type="Texture2D" uid="uid://fduva2u5al3v" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_5.png" id="14_i6v6s"]
+[ext_resource type="Texture2D" uid="uid://tdqu7mrhvy0w" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/run/run_7.png" id="14_tkqoa"]
+[ext_resource type="Texture2D" uid="uid://y67ko5prgoty" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_6.png" id="15_fr1e6"]
+[ext_resource type="Texture2D" uid="uid://cjbulpauhmeh6" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/run/run_8.png" id="15_ncvk6"]
+[ext_resource type="Texture2D" uid="uid://dm5t7c413m7fe" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_7.png" id="16_rm4jj"]
+[ext_resource type="Texture2D" uid="uid://brhrrdo478r6n" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_8.png" id="17_olk52"]
+[ext_resource type="Texture2D" uid="uid://llklqufpd03b" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_9.png" id="18_ubeb7"]
+[ext_resource type="Texture2D" uid="uid://bu3tjlbc54s4v" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_10.png" id="19_pboe6"]
+[ext_resource type="Texture2D" uid="uid://dwmv8m5wrao1e" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_11.png" id="20_obafb"]
+[ext_resource type="Texture2D" uid="uid://skav3pd4wjdr" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_12.png" id="21_e022a"]
+[ext_resource type="Texture2D" uid="uid://chwtivf8vhak3" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_13.png" id="22_7sj8q"]
+[ext_resource type="Texture2D" uid="uid://ctijmis7dct6v" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_14.png" id="23_3lcuj"]
+[ext_resource type="Texture2D" uid="uid://dot70r1xf6m3l" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_15.png" id="24_10w1j"]
+[ext_resource type="Texture2D" uid="uid://44pds6khlvxn" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_16.png" id="25_oar44"]
+[ext_resource type="Texture2D" uid="uid://b1am7iyifpcp4" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_17.png" id="26_bulhe"]
+[ext_resource type="Texture2D" uid="uid://dynjl2mqnv6o3" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_18.png" id="27_5psw0"]
+[ext_resource type="Texture2D" uid="uid://belarncaiahrf" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_19.png" id="28_ysege"]
+[ext_resource type="Texture2D" uid="uid://ca4mhfn1uepwf" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_20.png" id="29_dt36p"]
+[ext_resource type="Texture2D" uid="uid://btvcvam8wn4ap" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_21.png" id="30_37wvc"]
+[ext_resource type="Texture2D" uid="uid://bahlh7gtrqkj5" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_22.png" id="31_pt2pj"]
+[ext_resource type="Texture2D" uid="uid://bkxq6qsvakh0i" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_23.png" id="32_tjpqd"]
+[ext_resource type="Texture2D" uid="uid://cqhbiofc48buv" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_24.png" id="33_1t3yt"]
+[ext_resource type="Texture2D" uid="uid://dxlsyuumxy1nt" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/sp_atk/sp_atk_25.png" id="34_l6int"]
+[ext_resource type="Texture2D" uid="uid://ctrkmo1cp27ln" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/j_up/j_up_1.png" id="41_n3d1n"]
+[ext_resource type="Texture2D" uid="uid://d0sruldwg3p36" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/j_up/j_up_2.png" id="42_vn6r8"]
+[ext_resource type="Texture2D" uid="uid://7yb68lkhoynw" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/j_up/j_up_3.png" id="43_1m8e8"]
+[ext_resource type="Texture2D" uid="uid://bf473lu7rmsvf" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/j_down/j_down_1.png" id="44_v56bd"]
+[ext_resource type="Texture2D" uid="uid://bm311o4ad6fgo" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/j_down/j_down_2.png" id="45_5km35"]
+[ext_resource type="Texture2D" uid="uid://dbq56lgmompvd" path="res://Personagens/Elementals_ground_monk_FREE_v1.3.1/Elementals_ground_monk_FREE_v1.3/png/j_down/j_down_3.png" id="46_8omfs"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h5jmj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_788ur")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_mp5x7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_dmw2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_wgd0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_fttwg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ymj1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_tkqoa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ncvk6")
+}],
+"loop": true,
+"name": &"Correndo",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_xl6pf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_imfgs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_s01k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jutqi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_i6v6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_fr1e6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_rm4jj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_olk52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ubeb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_pboe6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_obafb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_e022a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_7sj8q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_3lcuj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_10w1j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_oar44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_bulhe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_5psw0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ysege")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_dt36p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_37wvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_pt2pj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_tjpqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_1t3yt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_l6int")
+}],
+"loop": true,
+"name": &"ESPECIAL",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0wl7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pn50w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_op02l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_wcx4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_dffo7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_2rsai")
+}],
+"loop": true,
+"name": &"Parado_1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("41_n3d1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_vn6r8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_1m8e8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_v56bd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_5km35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_8omfs")
+}],
+"loop": true,
+"name": &"Pulando",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iasjw"]
+size = Vector2(12, 35)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4nxxd"]
+size = Vector2(465, 9)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wb1to"]
+texture = ExtResource("8_tq1kg")
+3:1/0 = 0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:1/0 = 0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:1/0 = 0
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+11:1/0 = 0
+3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+4:2/0 = 0
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+5:2/0 = 0
+5:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+11:2/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+15:3/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+11:4/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+11:5/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+4:8/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_05ccc"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_wb1to")
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(-2, 5)
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(51, 70)
+script = ExtResource("1_indds")
+metadata/_edit_group_ = true
+
+[node name="animacao" type="AnimatedSprite2D" parent="CharacterBody2D"]
+position = Vector2(156, 74)
+sprite_frames = SubResource("SpriteFrames_h5jmj")
+animation = &"ESPECIAL"
+autoplay = "Parado_1"
+frame_progress = 0.506942
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(153, 113.5)
+shape = SubResource("RectangleShape2D_iasjw")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+offset = Vector2(0, -10)
+limit_top = -9999975
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(30, 10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(207, 199)
+shape = SubResource("RectangleShape2D_4nxxd")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(4, -5)
+tile_map_data = PackedByteArray("AAAFAA0AAAAEAAEAAAAGAA0AAAAEAAEAAAAHAA0AAAAEAAEAAAAIAA0AAAAEAAEAAAAJAA0AAAAEAAEAAAAKAA0AAAAEAAEAAAALAA0AAAAEAAEAAAAMAA0AAAAEAAEAAAAPAA0AAAAEAAEAAAAQAA0AAAAEAAEAAAARAA0AAAAEAAEAAAASAA0AAAAEAAEAAAATAA0AAAAEAAEAAAAUAA0AAAAEAAEAAAAVAA0AAAAEAAEAAAAWAA0AAAAEAAEAAAAXAA0AAAAEAAEAAAAYAA0AAAAEAAEAAAAZAA0AAAAEAAEAAAAaAA0AAAAEAAEAAAAbAA0AAAAEAAEAAAAcAA0AAAAEAAEAAAAAAA0AAAADAAEAAAABAA0AAAAEAAEAAAAAAA4AAAADAAIAAAAAAA8AAAADAAIAAAAAABAAAAADAAIAAAAAABEAAAADAAIAAAAAABIAAAADAAIAAAABAA4AAAAEAAIAAAABAA8AAAAEAAIAAAABABAAAAAEAAIAAAABABEAAAAEAAIAAAABABIAAAAEAAIAAAAGAA4AAAAEAAIAAAAGAA8AAAAEAAIAAAAGABAAAAAEAAIAAAAGABEAAAAEAAIAAAAGABIAAAAEAAIAAAAMAA4AAAAEAAIAAAAMAA8AAAAEAAIAAAAMABAAAAAEAAIAAAAMABEAAAAEAAIAAAAMABIAAAAEAAIAAAAQAA4AAAAEAAIAAAAQAA8AAAAEAAIAAAAQABAAAAAEAAIAAAAQABEAAAAEAAIAAAAQABIAAAAEAAIAAAAVAA4AAAAEAAIAAAAVAA8AAAAEAAIAAAAVABAAAAAEAAIAAAAVABEAAAAEAAIAAAAVABIAAAAEAAIAAAAYAA4AAAAEAAIAAAAYAA8AAAAEAAIAAAAYABAAAAAEAAIAAAAYABEAAAAEAAIAAAAYABIAAAAEAAIAAAAbAA4AAAAEAAIAAAAbAA8AAAAEAAIAAAAbABAAAAAEAAIAAAAbABEAAAAEAAIAAAAbABIAAAAEAAIAAAAJAA4AAAAEAAIAAAAJAA8AAAAEAAIAAAAJABEAAAAEAAIAAAAJABIAAAAEAAIAAAAJABAAAAAEAAIAAAAEAA4AAAAEAAIAAAAEAA8AAAAEAAIAAAAEABAAAAAEAAIAAAAEABEAAAAEAAIAAAAEABIAAAAEAAIAAAAHAA4AAAAEAAIAAAAHAA8AAAAEAAIAAAAHABAAAAAEAAIAAAAHABEAAAAEAAIAAAAHABIAAAAEAAIAAAAKAA4AAAAEAAIAAAAKAA8AAAAEAAIAAAAKABAAAAAEAAIAAAAKABEAAAAEAAIAAAAKABIAAAAEAAIAAAANAA4AAAAEAAIAAAANAA8AAAAEAAIAAAANABAAAAAEAAIAAAANABEAAAAEAAIAAAANABIAAAAEAAIAAAARAA4AAAAEAAIAAAARAA8AAAAEAAIAAAARABAAAAAEAAIAAAARABEAAAAEAAIAAAARABIAAAAEAAIAAAAZAA4AAAAEAAIAAAAZAA8AAAAEAAIAAAAZABAAAAAEAAIAAAAZABEAAAAEAAIAAAAZABIAAAAEAAIAAAAaAA4AAAAEAAIAAAAaAA8AAAAEAAIAAAAaABAAAAAEAAIAAAAaABEAAAAEAAIAAAAaABIAAAAEAAIAAAAXAA4AAAAEAAIAAAAXAA8AAAAEAAIAAAAXABAAAAAEAAIAAAAXABEAAAAEAAIAAAAXABIAAAAEAAIAAAAUAA4AAAAEAAIAAAAUAA8AAAAEAAIAAAAUABAAAAAEAAIAAAAUABEAAAAEAAIAAAAUABIAAAAEAAIAAAAPAA4AAAAEAAIAAAAPAA8AAAAEAAIAAAAPABAAAAAEAAIAAAAPABEAAAAEAAIAAAAPABIAAAAEAAIAAAAFAA4AAAAEAAIAAAAFAA8AAAAEAAIAAAAFABAAAAAEAAIAAAAFABEAAAAEAAIAAAAFABIAAAAEAAIAAAAIAA4AAAAEAAIAAAAIAA8AAAAEAAIAAAAIABAAAAAEAAIAAAAIABEAAAAEAAIAAAAIABIAAAAEAAIAAAALAA4AAAAEAAIAAAALAA8AAAAEAAIAAAALABAAAAAEAAIAAAALABEAAAAEAAIAAAALABIAAAAEAAIAAAAOAA4AAAAEAAIAAAAOAA8AAAAEAAIAAAAOABAAAAAEAAIAAAAOABEAAAAEAAIAAAAOABIAAAAEAAIAAAANAA0AAAAEAAEAAAAOAA0AAAAEAAEAAAASAA4AAAAEAAIAAAASAA8AAAAEAAIAAAASABAAAAAEAAIAAAASABEAAAAEAAIAAAASABIAAAAEAAIAAAATAA4AAAAEAAIAAAATAA8AAAAEAAIAAAATABAAAAAEAAIAAAATABEAAAAEAAIAAAATABIAAAAEAAIAAAAWAA4AAAAEAAIAAAAWAA8AAAAEAAIAAAAWABAAAAAEAAIAAAAWABEAAAAEAAIAAAAWABIAAAAEAAIAAAAcAA4AAAAEAAIAAAAcAA8AAAAEAAIAAAAcABAAAAAEAAIAAAAcABEAAAAEAAIAAAAcABIAAAAEAAIAAAAdAA0AAAAFAAEAAAAdAA4AAAAFAAIAAAAdAA8AAAAFAAIAAAAdABAAAAAFAAIAAAAdABEAAAAFAAIAAAAdABIAAAAFAAIAAAAEAA0AAAAEAAEAAAACAA0AAAAEAAEAAAADAA0AAAAEAAEAAAACAA4AAAAEAAIAAAADAA4AAAAEAAIAAAADAA8AAAAEAAIAAAACAA8AAAAEAAIAAAACABAAAAAEAAIAAAADABAAAAAEAAIAAAADABEAAAAEAAIAAAACABEAAAAEAAIAAAACABIAAAAEAAIAAAADABIAAAAEAAIAAAA=")
+tile_set = SubResource("TileSet_05ccc")
